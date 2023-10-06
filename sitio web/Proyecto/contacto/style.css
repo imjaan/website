@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], textarea, input[type="submit"] {
+    padding: 5px;
+    font-size: 14px;
+}

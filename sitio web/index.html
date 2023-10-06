@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Janncito</title>
+        <!--csslink-->
+        <link rel="stylesheet" href="style.css">
+         <!--box icons-->
+         <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+         <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    </head>
+    <body>
+        <!--navbar-->
+        <header>
+            <a href="#home" class="logo"> <i class='bx bx-dumbbell'></i> Jann Programs </a>
+
+            <ul class="navbar">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#new">Powerlifting</a></li>
+                <li><a href="#product">hipertrofia</a></li>
+                <li><a href="#reviews">Reseñas</a></li>
+            </ul>
+        
+            <!--iconos-->
+            <div class="header-icons">
+                <i class='bx bx-menu' id="menu-icon" ></i>
+                <i class='bx bx-search' id="search-icon" ></i>
+                <i class='bx bx-cart-alt' id="cart-icon" ></i>
+                <i class='bx bx-user' id="user-icon" ></i>
+            </div>
+
+            <!--search box-->
+            <div class="search-box">
+                <input type="search" name="" id="" placeholder="Buscar...">
+            </div>
+
+            <!--cart box-->
+            <div class="cart">
+                <!--box 1-->
+                <div class="box">
+                <img src="images/new1.png" alt="">
+                <div class="text">
+                    <h3>Iphone 14 pro max</h3>
+                    <span>$1200.00</span>
+                    <span>x1</span>
+                </div>
+                <i class='bx bxs-trash'></i>
+                </div>
+
+                <!--box 2-->
+                <div class="box">
+                    <img src="images/new2.png" alt="">
+                    <div class="text">
+                        <h3>Goggle pixel 7 pro</h3>
+                        <span>$800.00</span>
+                        <span>x1</span>
+                    </div>
+                    <i class='bx bxs-trash'></i>
+                </div>
+                <h2>Total: $2,000</h2>
+                <a href="#" class="btn">Pagar</a>
+            </div>
+
+            <!--user-->
+            <div class="user">
+                <h2>Inicia Sesión</h2>
+                <input type="email" placeholder="Tu correo">
+                <input type="password" name="" id="" placeholder="Contraseña">
+                <input type="submit" value="Iniciar sesión" class="login-btn">
+                    <p>¿Olvidó su contraseña? <a href="#">Recuperar ahora</a></p>
+                    <p>No tengo cuenta <a href="registro.html">Crear cuenta</a></p>
+            </div>
+            
+        </header>
+        <!--home-->
+        <section class="home" id="home">
+            <div class="home-text">
+                <span>Asesorias</span>
+                <h1> Programas <br> Personalizados</h1>
+                <a href="#" class="btn">Comprar ahora</a>
+            </div>
+            <div class="home-image">
+                <img src="images/home.png" alt="">
+            </div>
+        </section>
+        <br>
+        <!--Nuevos productos-->
+
+        <section class="new" id="new">
+            <div class="heading">
+                <h1>Programas <span>Power</span></h1>
+            </div>
+            
+                    <div class="container">
+                        <div class="swiper tranding-slider">
+                          <div class="swiper-wrapper">
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide" data-slide-id="1">
+                              <div class="tranding-slide-img">
+                                <img src="images/power1.png" alt="Tranding">
+                                    <a href="#" class="btn2">Comprar</a>
+                                    
+                              </div>
+                              <div class="tranding-slide-content">
+                                <h1 class="food-price">$20</h1>
+                                <div class="tranding-slide-content-bottom">
+                                  <h2 class="food-name">
+                                    Linear program
+                                  </h2>
+                                  <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                    </div>
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide" data-slide-id="2">
+                              <div class="tranding-slide-img">
+                                <img src="images/power2.png" alt="Tranding">
+                                <a href="#" class="btn2">Comprar</a>
+                              </div>
+                              <div class="tranding-slide-content">
+                                <h1 class="food-price">$20</h1>
+                                <div class="tranding-slide-content-bottom">
+                                  <h2 class="food-name">
+                                    6 weeks program
+                                  </h2>
+                                  <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                    </div>
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide" data-slide-id="3">
+                              <div class="tranding-slide-img">
+                                <img src="images/new1.png" alt="Tranding">
+                                <a href="#" class="btn2">Comprar</a>
+                              </div>
+                              <div class="tranding-slide-content">
+                                <h1 class="food-price">$40</h1>
+                                <div class="tranding-slide-content-bottom">
+                                  <h2 class="food-name">
+                                    Burger
+                                  </h2>
+                                  <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                    </div>
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide" data-slide-id="4">
+                              <div class="tranding-slide-img">
+                                <img src="images/new1.png" alt="Tranding">
+                                <a href="#" class="btn2">Comprar</a>
+                              </div>
+                              <div class="tranding-slide-content">
+                                <h1 class="food-price">$15</h1>
+                                <div class="tranding-slide-content-bottom">
+                                  <h2 class="food-name">
+                                    Frish Curry
+                                  </h2>
+                                  <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                    </div>
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide" data-slide-id="5">
+                              <div class="tranding-slide-img">
+                                <img src="images/new1.png" alt="Tranding">
+                                <a href="#" class="btn2">Comprar</a>
+                              </div>
+                              <div class="tranding-slide-content">
+                                <h1 class="food-price">$15</h1>
+                                <div class="tranding-slide-content-bottom">
+                                  <h2 class="food-name">
+                                    Pane Cake
+                                  </h2>
+                                  <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                      <ion-icon name="star"></ion-icon>
+                                    </div>
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Slide-end -->
+                           
+                          </div>
+                
+                          <div class="tranding-slider-control">
+                            <div class="swiper-button-prev slider-arrow">
+                              <ion-icon name="arrow-back-outline"></ion-icon>
+                            </div>
+                            <div class="swiper-button-next slider-arrow">
+                              <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                
+                        </div>
+                      </div>
+        </section>
+        <!-- product -->
+        <section class="product" id="product">
+            <div class="heading">
+              <h1>Programas <span> hipertrofia</span></h1>
+            </div>
+          
+            <div class="product-container">
+              <!-- Elementos de la parte superior -->
+              <div class="box">
+                <!-- Contenido del primer elemento -->
+              <img src="images/p1.png" alt="">
+                          <div class="content">
+                              <h2>T-shirt travis scott</h2>
+                              <div class="star"></div>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star-half' ></i>
+                          </div>
+                          <span>$25.00</span>
+                          <i class='bx bxs-cart-add'></i>
+              </div>
+              <div class="box">
+                <!-- Contenido del segundo elemento -->
+                  <img src="images/p2.png" alt="">
+                          <div class="content">
+                              <h2>T-shirt travis scott</h2>
+                              <div class="star"></div>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star-half' ></i>
+                          </div>
+                          <span>$25.00</span>
+                          <i class='bx bxs-cart-add'></i>
+              </div>
+              <div class="box">
+                <!-- Contenido del tercer elemento -->
+                  <img src="images/p3.png" alt="">
+                          <div class="content">
+                              <h2>T-shirt Bad bunny</h2>
+                              <div class="star"></div>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star-half' ></i>
+                          </div>
+                          <span>$25.00</span>
+                          <i class='bx bxs-cart-add'></i>
+              </div>
+              <div class="box">
+                <!-- Contenido del cuarto elemento -->
+          <img src="images/p4.png" alt="">
+                          <div class="content">
+                              <h2>RTX 4090</h2>
+                              <div class="star"></div>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star'></i>
+                              <i class='bx bxs-star-half' ></i>
+                          </div>
+                          <span>$1,700.00</span>
+                          <i class='bx bxs-cart-add'></i>
+              </div>
+            </div>
+          
+           
+          </section>
+        <!-- reviews -->
+        <section class="reviews" id="reviews">
+            <div class="heading">
+              <h1>Nuestras <span>Reseñas</span></h1>
+            </div>
+            <div class="reviews-container">
+              <div class="box">
+                <!-- Contenido del primer elemento -->
+          <img src="images/r1.png" alt="">
+                          <div class="star">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star-half' ></i>
+                          </div>
+                          <p>Yalabetia que plenon, bien serio el sitio moh</p>
+                          <h2>Moi Music</h2>
+              </div>
+              <div class="box">
+                <!-- Contenido del segundo elemento -->
+               <img src="images/r2.png" alt="">
+                          <div class="star">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star-half' ></i>
+                          </div>
+                          <p>Producto entregado bien fast bro</p>
+                          <h2>El yeyo</h2>
+              </div>
+              <div class="box">
+                <!-- Contenido del tercer elemento -->
+           <img src="images/r3.png" alt="">
+                              <div class="star">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star-half' ></i>
+                              </div>
+                              <p>No hablo español, pero ten $500 dolares</p>
+                              <h2>Mr beast</h2>
+              </div>
+            </div>
+          </section>
+
+        
+          <!-- footer -->
+          <section class="footer">
+            <div class="footer-box">
+                <h2>Mercado ideal</h2>
+                <p>"Facilidad, comodidad y rapidez: Tu Marketplace minimalista y sin complicaciones</p>
+
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Soporte</h3>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Ayuda y soporte </a></li>
+            <li><a href="#">Politicas de devolución</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">FAQ</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Metodos de pagos</h3>
+            <div class="payment">
+                <img src="images/visa.png" alt="">
+                <img src="images/mastercard.png" alt="">
+                <img src="images/yappy.png" alt="">
+                <img src="images/paypal.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- derechos de autor -->
+    <div class="copyright">
+        <p>&#169; Mercado ideal todos los derechos reservados.</p>
+
+
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+         <!--link para 35-->
+         <script src="main.js"></script>
+    </body>
+</html>
